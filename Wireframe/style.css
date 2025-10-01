@@ -27,7 +27,7 @@ As well as useful links to learn more */
 /* ====== Base Elements ======
  General rules for basic HTML elements in any context */
 body {
-  background: var(--paper);
+  background-color: var(--paper);
   color: var(--ink);
   font: var(--font);
 }
@@ -40,6 +40,17 @@ img,
 svg {
   width: 100%;
   object-fit: cover;
+}
+h1{
+  font-size: 2rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: calc(var(--space) * 2);
+  text-align: center;
+}
+.main_description {
+  font-style: italic;
+  margin-bottom: calc(var(--space) * 2);
+  text-align: center;
 }
 /* ====== Site Layout ====== 
 Setting the overall rules for page regions
